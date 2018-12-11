@@ -4,17 +4,9 @@
 }
 
 .background {
-  background-image: url("./images/background.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url("./images/background.jpg");
   background-repeat: none;
   background-size: cover;
-}
-
-.background-filter {
-  background-color: white;
-  opacity: 0.2;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
 }
 
 nav {
