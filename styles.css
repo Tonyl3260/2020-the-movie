@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+body {
+  background-image: url("./images/background.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -12,7 +18,7 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 1.5rem;
-  /*color: white;*/
+  color: white;
 }
 
 .movie-title-nav {
@@ -40,5 +46,5 @@ nav a {
 h1 {
   font-size: 3rem;
   text-align: center;
-  /*color: white;*/
+  color: white;
 }
