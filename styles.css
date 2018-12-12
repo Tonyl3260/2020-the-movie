@@ -44,13 +44,15 @@ nav a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
   color: white;
+  margin: 80px;
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-align: center;
   color: white;
+  margin: 20px;
 }
