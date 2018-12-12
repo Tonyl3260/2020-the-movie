@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .background {
@@ -41,6 +42,7 @@ nav a {
   justify-content: center;
   align-items: center;
   height: 40vh;
+  font-family: "Rakkas";
 }
 
 h1 {
@@ -48,9 +50,11 @@ h1 {
   text-align: center;
   color: white;
 }
+
 h3 {
   font-size: 1.25rem;
   text-align: center;
   color: white;
   height: 45vh;
+  font-family: "Indie+Flower"; /*font wont change*/
 }
