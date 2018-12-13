@@ -62,3 +62,9 @@ p {
   color: white;
   margin: 20px;
 }
+
+h3 {
+  margin: 100px;
+  font-size: 3rem;
+  color: white;
+}
