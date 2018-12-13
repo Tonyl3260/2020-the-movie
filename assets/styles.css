@@ -47,7 +47,13 @@ h1 {
   font-size: 5rem;
   text-align: center;
   color: white;
-  margin: 80px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
 
 p {
