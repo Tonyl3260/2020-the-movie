@@ -4,66 +4,13 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 255, 0.15)), url("../images/background.jpg");
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  padding: 25px;
-}
-
-nav a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: white;
-}
-
-.movie-title-nav {
-  font-weight: bold;
-}
-
-.nav-links {
-  position: absolute;
-  right: 0;
-  padding: 0 15px;
-}
-
-.nav-links>a {
-  margin: 0 10px;
+  height: 100%;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-h1 {
-  font-size: 5rem;
-  text-align: center;
-  color: white;
-}
-
-h2 {
-  font-size: 2rem;
-  color: white;
-  margin-top: 5px;
-  margin-bottom: 25px;
-}
-
-p {
-  font-size: 2rem;
-  text-align: center;
-  color: white;
-  margin: 20px;
-}
-
-h3 {
-  margin: 25px;
-  font-size: 3rem;
+  text-align:center;
   color: white;
 }
