@@ -11,15 +11,44 @@ body {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  items-align: center;
+  justify-content: center;
   color: white;
+  height: 100%;
+}
+
+.content-container {
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 3vw;
+  margin-bottom: 35px;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
 p {
   float: left;
-  max-width: calc(100vw - (256px * 2) - 28px);
+  max-width: calc(100vw - (256px * 2) - 38px);
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 2vw;
   text-align: center;
+  margin: 0 10px;
 }
 
 .earthquake,
