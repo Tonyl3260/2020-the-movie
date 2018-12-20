@@ -40,22 +40,30 @@ h1,
 h2,
 h3 {
   text-align: center;
+  font-family: 'Francois One', sans-serif;
 }
 
 p {
-  float: left;
   max-width: calc(100vw - (256px * 2) - 38px);
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: center;
-  margin: 0 10px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.earthquake {
+  float: left;  
+}
+
+.hurricane {
+  float: right;
 }
 
 .earthquake,
 .hurricane {
-  float: left;
-  width: 256px;
+    width: 256px;
   height: 256px;
-  border-radius: 50%;
   border: 4px solid white;
+  margin: 0 auto;
 }
