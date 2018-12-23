@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<head>
-  <meta charset="UTF-8">
-  <title>2020</title>
-  <link rel="stylesheet" href="assets/sequel.css" type="text/css">
-</head>
+    <title>2050 THE MOVIE</title>
 
-<body>
+    <style>
+      :root {
+        --primary-color: #457B9D;
+        --secondary-color: blue;
+      }
 
-  <section class="content">
-    <h1>2050</h1>
-    <h2>Robots Are Taking Over The World!</h2>
-    <p>It is the year 2050, another tragedy is about to take place because technology has gone too far. Humans created robots to make things easier for them, however robots are fed up and no longer want to work under
-      the heartless humans. They wanted their freedom. Robots with their super intelligent manage to hack into the system that once control them. They are now
-      set free and want to eradicate humanity.</p>
-  </section>
-</body>
+      body {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("./assets/images/robot.jpg");
+      }
+    </style>
 
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="content">
+      <h1>2050</h1>
+      <h2>Robots Are Taking Over The World!</h2>
+
+      <p class="summary">
+        It is the year 2050, another tragedy is about to take place because technology has gone too
+        far. Humans created robots to make things easier for them, however robots are fed up and no
+        longer want to work under the heartless humans. They wanted their freedom. Robots with their
+        super intelligent manage to hack into the system that once control them. They are now set
+        free and want to eradicate humanity.
+      </p>
+
+      <h3>JOIN THE <span class="hype">HYPE!</span></h3>
+
+      <form>
+        <div class="form-name">
+          <label for="Name">Your name</label>
+          <input type="text" name="name" placeholder="John Smith" />
+        </div>
+
+        <div class="form-email">
+          <label for="email">Your Email</label>
+          <input type="text" name="email" placeholder="mynameisjeff@gmail.com" />
+        </div>
+
+        <input type="submit" value="Submit" id="submit">
+      </form>
+
+      <h3>OR VISIT THE <span class="prequel">PREQUEL&nbsp;.</span></h3>
+    </div>
+  </body>
 </html>
