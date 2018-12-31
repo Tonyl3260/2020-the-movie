@@ -10,35 +10,23 @@ body {
 }
 
 nav {
-  background-color: var(--primary-color);
-  height: 30px;
-  min-width: 400px;
-  padding: 20px;
-  margin-bottom: 25px;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
-nav > *,
-nav > div > * {
-  display: inline;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
+.float-r { float: right; }
+.float-l { float: left; }
+
+.nav-link {
+  font-size: 25px;
+  padding: 10px;
 }
 
-nav > *:not(div) {
-  float: left;
-}
-
-nav > div {
-  float: right;
-}
-
-.nav-brand {
-  letter-spacing: -1px;
-}
-
+.nav-link,
 .content {
   color: white;
+  text-decoration: none;
 }
 
 h1,
@@ -53,7 +41,8 @@ h2 {
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 125px;
+  margin-top: 50px;
 }
 
 h2 {
@@ -62,34 +51,15 @@ h2 {
 }
 
 h3,
-.prequel-link,
-.sequel-link {
+audio {
   font-size: 55px;
   margin-top: 50px;
 }
 
-nav > *,
+nav,
 h3,
 p {
   font-family: "Poppins", sans-serif;
-}
-
-.prequel-link,
-.sequel-link {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 50px;
-  transition: color 0.3s ease-in-out;
-}
-
-.prequel-link:hover,
-.sequel-link:hover {
-  color: var(--primary-color);
 }
 
 .hype,
@@ -103,20 +73,22 @@ p {
   text-align: center;
   max-width: 700px;
   min-width: 400px;
-  font-size: 30px;
+  font-size: 25px;
+}
+
+audio {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 form {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin: 25px 0;
+  margin: 50px 0;
   padding: 50px 0;
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
-}
-
-form > * {
-  display: block;
 }
 
 form > div > label {
